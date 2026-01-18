@@ -1,0 +1,89 @@
+ul {
+  list-style: none;
+}
+
+.example-2 {
+  display: flex;
+  align-items: center;
+}
+
+.example-2 .icon-content {
+  margin: 0 10px;
+  position: relative;
+}
+
+.example-2 .icon-content .tooltip {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.example-2 .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  bottom: -40px;
+}
+
+.example-2 .icon-content a {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  font-size: 22px;
+}
+
+.example-2 .icon-content a:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  color: white;
+}
+
+.example-2 .icon-content a .filled {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: all 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.example-2 .icon-content a i {
+  position: relative;
+  z-index: 1;
+}
+
+.example-2 .icon-content a[data-social='linkedin'] .filled,
+.example-2 .icon-content a[data-social='linkedin'] ~ .tooltip {
+  background-color: #0a66c2;
+}
+
+.example-2 .icon-content a[data-social='github'] .filled,
+.example-2 .icon-content a[data-social='github'] ~ .tooltip {
+  background-color: #000;
+}
+
+.example-2 .icon-content a[data-social='email'] .filled,
+.example-2 .icon-content a[data-social='email'] ~ .tooltip {
+  background-color: #fa2525;
+}
+
+.example-2 .icon-content a:hover .filled {
+  height: 100%;
+}

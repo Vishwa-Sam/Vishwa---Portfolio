@@ -1,0 +1,36 @@
+.card {
+  width: 280px;
+  height: 254px;
+  background: rgb(44, 44, 44);
+  border: 3px solid #2dd4bf;
+  border-radius: 15px;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s ease;
+  color: white;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+  border-radius: 50%;
+  background-color: #fb923c;
+  transform: translateX(50%);
+}
+
+.card-content {
+  text-align: center;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: rotate3d(10, 10, 15, -40deg);
+}

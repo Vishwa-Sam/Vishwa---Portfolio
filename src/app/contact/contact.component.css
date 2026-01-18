@@ -1,0 +1,84 @@
+.tooltip-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.borde-back {
+  width: 60px;
+  height: 60px;
+  background: rgba(248, 250, 252, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  position: relative;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s ease-in-out;
+  z-index: 4;
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  padding: 0 16px 0 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  transform: scaleX(0);
+  transform-origin: left center;
+  border-radius: 0 50px 50px 0;
+  left: 50%;
+  z-index: 0;
+}
+
+/* left tooltip */
+.tooltip.left {
+  left: auto;
+  right: 50%;
+  padding: 0 40px 0 16px;
+  border-radius: 50px 0 0 50px;
+  transform-origin: right center;
+}
+
+.tooltip-container:hover .tooltip {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.tooltip-container:hover .icon {
+  transform: rotate(360deg);
+}
+
+.tooltip-container.linkedin .icon,
+.tooltip-container.linkedin .tooltip {
+  background: linear-gradient(225deg, #0a66c2, #0077b5);
+}
+
+.tooltip-container.github .icon,
+.tooltip-container.github .tooltip {
+  background: linear-gradient(225deg, #24292e, #000);
+}
