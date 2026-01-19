@@ -24,7 +24,7 @@ export class ProjectsComponent {
       subtitle: 'Angular Indian Car Renting Application',
       image: '/assets/project1.png',
       live: 'https://luxro-car-rental.netlify.app',
-      github: 'https://github.com/your-username/luxro',
+      github: 'https://github.com/Vishwa-Sam/Luxro---Car-Rental-App',
       description: [
         'Luxro Car Rental is a modern, responsive car rental web application built using Angular 21. The project demonstrates real-world features such as car browsing, filtering, detailed car pages, user authentication flow, favorites, and booking confirmation.',
         'The application follows a clean component-based architecture with Angular routing, lazy loading, and optimized production builds. It is fully deployed on Netlify with client-side routing configuration for seamless navigation.',
@@ -53,7 +53,7 @@ export class ProjectsComponent {
       subtitle: 'Angular Recipe Management Application',
       image: '/assets/project2.png',
       live: 'https://recipyrealm.netlify.app',
-      github: 'https://github.com/your-username/recipyrealm',
+      github: 'https://github.com/Vishwa-Sam/RecipyRealm---Recipy-App',
       description: [
         'RecipyRealm is a modern recipe management web application built using Angular with standalone components and lazy-loaded routes. The application allows users to browse recipes, view detailed instructions, manage a shopping list, and explore categorized food content with a smooth and responsive UI.',
         'The project demonstrates real-world Angular concepts such as routing, lazy loading, modular architecture, component communication, and production deployment using Netlify with proper SPA routing configuration.',
@@ -83,7 +83,7 @@ export class ProjectsComponent {
       subtitle: 'Book Discovery Web Application',
       image: '/assets/project3.png',
       live: 'https://bookbuddy-app.netlify.app',
-      github: 'https://github.com/your-username/bookbuddy',
+      github: 'https://github.com/Vishwa-Sam/BookBuddy-App',
       description: [
         'BookBuddy is a lightweight and responsive book discovery web application built using HTML, CSS, and JavaScript. The project allows users to explore books, view details, and interact with a clean, user-friendly interface designed for fast performance and simplicity.',
         'This project demonstrates strong fundamentals of front-end development, including DOM manipulation, responsive layout design, and clean UI structuring without relying on any frameworks.',

@@ -34,3 +34,55 @@
 .card:hover {
   transform: rotate3d(10, 10, 15, -40deg);
 }
+
+@media (max-width: 1200px) {
+  #skills .grid-cols-4 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #skills .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .card {
+    width: 260px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  #skills .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .card {
+    width: 240px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  #skills .grid-cols-4 {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 220px;
+    height: 210px;
+  }
+
+  #skills h2 {
+    font-size: 2rem;
+  }
+
+  #skills p {
+    font-size: 0.9rem;
+  }
+}

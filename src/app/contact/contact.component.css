@@ -82,3 +82,44 @@
 .tooltip-container.github .tooltip {
   background: linear-gradient(225deg, #24292e, #000);
 }
+
+@media (max-width: 768px) {
+
+  #contact .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  #contact p.text-xl {
+    font-size: 0.95rem;
+  }
+
+  #contact .flex.justify-center {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #contact {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  #contact p.text-xl {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  #contact .grid-cols-3 {
+    gap: 1.5rem;
+  }
+
+  #contact .tooltip-container {
+    transform: scale(0.9);
+  }
+}

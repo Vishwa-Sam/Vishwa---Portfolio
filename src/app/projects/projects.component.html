@@ -3,7 +3,7 @@
 
   <!-- Title -->
   <div class="text-center mb-24 reveal">
-    <h2 class="text-4xl md:text-5xl font-bold text-teal-400">Projects</h2>
+    <h2 class="text-4xl font-bold text-teal-400">Projects</h2>
     <p class="mt-4 text-gray-200 font-2xl">
       A showcase of my real-world projects with modern UI and scalable architecture.
     </p>
@@ -12,7 +12,7 @@
   <div class="px-32 space-y-32">
 
     @for (project of projects; track $index) {
-    <div class="grid md:grid-cols-2 gap-12 items-center">
+    <div class="grid grid-cols-2 gap-12 items-center">
 
       <!-- Image -->
       <div [class.md:order-2]="$index % 2 !== 0"

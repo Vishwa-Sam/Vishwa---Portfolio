@@ -15,3 +15,130 @@
 @keyframes blink {
   50% { border-color: transparent }
 }
+
+@media (max-width: 1200px) {
+  #projects .px-32 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  #projects h2 {
+    font-size: 2.8rem;
+  }
+
+  #projects h4 {
+    font-size: 1.6rem;
+  }
+
+  .typing-text {
+    width: 360px;
+  }
+}
+
+@media (max-width: 992px) {
+  #projects .px-32 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  #projects .grid-cols-2 {
+    gap: 3rem;
+  }
+
+  #projects h2 {
+    font-size: 2.4rem;
+  }
+
+  #projects h4 {
+    font-size: 1.4rem;
+  }
+
+  .typing-text {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #projects .grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  #projects .reveal-left,
+  #projects .reveal-right {
+    order: unset !important;
+    text-align: center;
+  }
+
+  #projects img {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  #projects .flex.items-center {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  #projects .flex.items-center span.w-24 {
+    width: auto;
+  }
+
+  #projects ul {
+    text-align: left;
+    display: inline-block;
+  }
+
+  #projects .flex.flex-wrap {
+    justify-content: center;
+  }
+
+  .typing-text {
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #projects .px-32 {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  #projects h2 {
+    font-size: 2rem;
+  }
+
+  #projects h4 {
+    font-size: 1.2rem;
+  }
+
+  #projects p,
+  #projects li {
+    font-size: 0.9rem;
+  }
+
+  .typing-text {
+    width: 220px;
+    font-size: 1rem;
+  }
+
+  #projects ul {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 260px }
+  }
+}
+
+@media (max-width: 480px) {
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 200px }
+  }
+}
