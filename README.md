@@ -37,9 +37,9 @@ Framework: Angular
 
 Language: TypeScript, JavaScript
 
-Styling: HTML5, CSS3, SCSS
+Styling: HTML, CSS, TailwindCSS , Bootstrap.
 
-Tools: Git, GitHub, VS Code
+Tools: Git, GitHub.
 
 Deployment: Netlify
 
