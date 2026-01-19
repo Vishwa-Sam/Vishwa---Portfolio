@@ -1,59 +1,45 @@
-# VishwaPortfolio
+# 🌐 Personal Portfolio Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
+Welcome to my personal portfolio website repository!
+This project showcases my skills, projects, and experience as a Front-End Developer specializing in Angular.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🔗 Live Portfolio:
 
-```bash
-ng serve
-```
+https://vishwa-r-portfolio.netlify.app/
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 👨‍💻 About Me
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Hi, I'm Vishwa R , a passionate Front-End Developer focused on building scalable, user-centric, and visually appealing web applications.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## What I do:
 
-```bash
-ng generate --help
-```
+⚡ Angular Frontend Development.
 
-## Building
+🎯 Clean UI & UX Engineering.
 
-To build the project run:
+🧠 Modern Frontend Architecture.
 
-```bash
-ng build
-```
+📱 Responsive Web Design.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+🔄 API Integration.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 🛠️ Tech Stack
 
-```bash
-ng test
-```
+Framework: Angular
 
-## Running end-to-end tests
+Language: TypeScript, JavaScript
 
-For end-to-end (e2e) testing, run:
+Styling: HTML5, CSS3, SCSS
 
-```bash
-ng e2e
-```
+Tools: Git, GitHub, VS Code
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Deployment: Netlify
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
